@@ -26,12 +26,14 @@
 	<script type="text/javascript" src="js/jquery.js"></script>
 	<script type="text/javascript" src="js/plugins.js"></script>
 
-	<!-- SLIDER REVOLUTION 4.x SCRIPTS  -->
+	<!-- SLIDER REVOLUTION 5.x CSS SETTINGS -->
+	<link rel="stylesheet" type="text/css" href="include/rs-plugin/css/settings.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="include/rs-plugin/css/layers.css">
+	<link rel="stylesheet" type="text/css" href="include/rs-plugin/css/navigation.css">
+
+	<!-- SLIDER REVOLUTION 5.x SCRIPTS  -->
 	<script type="text/javascript" src="include/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
 	<script type="text/javascript" src="include/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
-
-	<!-- SLIDER REVOLUTION 4.x CSS SETTINGS -->
-	<link rel="stylesheet" type="text/css" href="include/rs-plugin/css/settings.css" media="screen" />
 
 	<!-- Document Title
 	============================================= -->
@@ -64,6 +66,10 @@
 			font-family: 'Raleway', sans-serif;
 		}
 
+		.tp-video-play-button { display: none !important; }
+
+		.tp-caption { white-space: nowrap; }
+
 	</style>
 
 </head>
@@ -73,239 +79,6 @@
 	<!-- Document Wrapper
 	============================================= -->
 	<div id="wrapper" class="clearfix">
-
-		<!-- Top Bar
-		============================================= -->
-		<div id="top-bar" class="hidden-xs">
-
-			<div class="container clearfix">
-
-				<div class="col_half nobottommargin">
-
-					<p class="nobottommargin"><strong>Call:</strong> 1800-547-2145 | <strong>Email:</strong> info@canvas.com</p>
-
-				</div>
-
-				<div class="col_half col_last fright nobottommargin">
-
-					<!-- Top Links
-					============================================= -->
-					<div class="top-links">
-						<ul>
-							<li><a href="#">USD</a>
-								<ul>
-									<li><a href="#">EUR</a></li>
-									<li><a href="#">AUD</a></li>
-									<li><a href="#">GBP</a></li>
-								</ul>
-							</li>
-							<li><a href="#">EN</a>
-								<ul>
-									<li><a href="#"><img src="images/icons/flags/french.png" alt="French"> FR</a></li>
-									<li><a href="#"><img src="images/icons/flags/italian.png" alt="Italian"> IT</a></li>
-									<li><a href="#"><img src="images/icons/flags/german.png" alt="German"> DE</a></li>
-								</ul>
-							</li>
-							<li><a href="#">Login</a>
-								<div class="top-link-section">
-									<form id="top-login" role="form">
-										<div class="input-group" id="top-login-username">
-											<span class="input-group-addon"><i class="icon-user"></i></span>
-											<input type="email" class="form-control" placeholder="Email address" required="">
-										</div>
-										<div class="input-group" id="top-login-password">
-											<span class="input-group-addon"><i class="icon-key"></i></span>
-											<input type="password" class="form-control" placeholder="Password" required="">
-										</div>
-										<label class="checkbox">
-										  <input type="checkbox" value="remember-me"> Remember me
-										</label>
-										<button class="btn btn-danger btn-block" type="submit">Sign in</button>
-									</form>
-								</div>
-							</li>
-						</ul>
-					</div><!-- .top-links end -->
-
-				</div>
-
-			</div>
-
-		</div><!-- #top-bar end -->
-
-		<!-- Header
-		============================================= -->
-		<header id="header">
-
-			<div id="header-wrap">
-
-				<div class="container clearfix">
-
-					<div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
-
-					<!-- Logo
-					============================================= -->
-					<div id="logo">
-						<a href="index.html" class="standard-logo" data-dark-logo="images/logo-dark.png"><img src="images/logo.png" alt="Canvas Logo"></a>
-						<a href="index.html" class="retina-logo" data-dark-logo="images/logo-dark@2x.png"><img src="images/logo@2x.png" alt="Canvas Logo"></a>
-					</div><!-- #logo end -->
-
-					<!-- Primary Navigation
-					============================================= -->
-					<nav id="primary-menu">
-
-						<ul>
-							<li class="current"><a href="#"><div>Home</div><span>Lets Start</span></a>
-							</li>
-							<!-- Mega Menu
-							============================================= -->
-							<li class="mega-menu"><a href="#"><div>Men</div><span>Out of the Box</span></a>
-								<div class="mega-menu-content style-2 col-4 clearfix">
-									<ul>
-										<li class="mega-menu-title"><a href="#"><div>Footwear</div></a>
-											<ul>
-												<li><a href="#"><div>Casual Shoes</div></a></li>
-												<li><a href="#"><div>Formal Shoes</div></a></li>
-												<li><a href="#"><div>Sports shoes</div></a></li>
-												<li><a href="#"><div>Flip Flops</div></a></li>
-												<li><a href="#"><div>Slippers</div></a></li>
-												<li><a href="#"><div>Sports Sandals</div></a></li>
-												<li><a href="#"><div>Party Shoes</div></a></li>
-											</ul>
-										</li>
-									</ul>
-									<ul>
-										<li class="mega-menu-title"><a href="#"><div>Clothing</div></a>
-											<ul>
-												<li><a href="#"><div>Casual Shirts</div></a></li>
-												<li><a href="#"><div>T-Shirts</div></a></li>
-												<li><a href="#"><div>Collared Tees</div></a></li>
-												<li><a href="#"><div>Pants / Trousers</div></a></li>
-												<li><a href="#"><div>Ethnic Wear</div></a></li>
-												<li><a href="#"><div>Jeans</div></a></li>
-												<li><a href="#"><div>Sweamwear</div></a></li>
-											</ul>
-										</li>
-									</ul>
-									<ul>
-										<li class="mega-menu-title"><a href="#"><div>Accessories</div></a>
-											<ul>
-												<li><a href="#"><div>Bags &amp; Backpacks</div></a></li>
-												<li><a href="#"><div>Watches</div></a></li>
-												<li><a href="#"><div>Sunglasses</div></a></li>
-												<li><a href="#"><div>Wallets</div></a></li>
-												<li><a href="#"><div>Caps &amp; Hats</div></a></li>
-												<li><a href="#"><div>Jewellery</div></a></li>
-												<li><a href="#"><div>Belts, Ties</div></a></li>
-											</ul>
-										</li>
-									</ul>
-									<ul>
-										<li class="mega-menu-title"><a href="#"><div>New Arrivals</div></a>
-											<ul>
-												<li><a href="#"><div>T-Shirts</div></a></li>
-												<li><a href="#"><div>Formal Shoes</div></a></li>
-												<li><a href="#"><div>Accessories</div></a></li>
-												<li><a href="#"><div>Watches</div></a></li>
-												<li><a href="#"><div>Perfumes</div></a></li>
-												<li><a href="#"><div>Belts, Ties</div></a></li>
-												<li><a href="#"><div>Formal Shirts</div></a></li>
-											</ul>
-										</li>
-									</ul>
-								</div>
-							</li><!-- .mega-menu end -->
-							<li><a href="#"><div>Women</div><span>Out of the Box</span></a>
-								<div class="mega-menu-content style-2 col-2 clearfix">
-									<ul>
-										<li class="mega-menu-title"><a href="#"><div>Footwear</div></a>
-											<ul>
-												<li><a href="#"><div>Casual Shoes</div></a></li>
-												<li><a href="#"><div>Formal Shoes</div></a></li>
-												<li><a href="#"><div>Sports shoes</div></a></li>
-												<li><a href="#"><div>Flip Flops</div></a></li>
-												<li><a href="#"><div>Slippers</div></a></li>
-												<li><a href="#"><div>Sports Sandals</div></a></li>
-												<li><a href="#"><div>Party Shoes</div></a></li>
-											</ul>
-										</li>
-									</ul>
-									<ul>
-										<li class="mega-menu-title"><a href="#"><div>Clothing</div></a>
-											<ul>
-												<li><a href="#"><div>Casual Shirts</div></a></li>
-												<li><a href="#"><div>T-Shirts</div></a></li>
-												<li><a href="#"><div>Collared Tees</div></a></li>
-												<li><a href="#"><div>Pants / Trousers</div></a></li>
-												<li><a href="#"><div>Ethnic Wear</div></a></li>
-												<li><a href="#"><div>Jeans</div></a></li>
-												<li><a href="#"><div>Sweamwear</div></a></li>
-											</ul>
-										</li>
-									</ul>
-								</div>
-							</li><!-- .mega-menu end -->
-							<li><a href="#"><div>Accessories</div><span>Awesome Works</span></a></li>
-							<li><a href="#"><div>Sale</div><span>Awesome Works</span></a></li>
-							<li><a href="#"><div>Blog</div><span>Latest News</span></a></li>
-							<li><a href="#"><div>Videos</div><span>Latest News</span></a></li>
-							<li><a href="#"><div>Contact</div><span>Get In Touch</span></a></li>
-						</ul>
-
-						<!-- Top Cart
-						============================================= -->
-						<div id="top-cart">
-							<a href="#" id="top-cart-trigger"><i class="icon-shopping-cart"></i><span>5</span></a>
-							<div class="top-cart-content">
-								<div class="top-cart-title">
-									<h4>Shopping Cart</h4>
-								</div>
-								<div class="top-cart-items">
-									<div class="top-cart-item clearfix">
-										<div class="top-cart-item-image">
-											<a href="#"><img src="images/shop/small/1.jpg" alt="Blue Round-Neck Tshirt" /></a>
-										</div>
-										<div class="top-cart-item-desc">
-											<a href="#">Blue Round-Neck Tshirt</a>
-											<span class="top-cart-item-price">$19.99</span>
-											<span class="top-cart-item-quantity">x 2</span>
-										</div>
-									</div>
-									<div class="top-cart-item clearfix">
-										<div class="top-cart-item-image">
-											<a href="#"><img src="images/shop/small/6.jpg" alt="Light Blue Denim Dress" /></a>
-										</div>
-										<div class="top-cart-item-desc">
-											<a href="#">Light Blue Denim Dress</a>
-											<span class="top-cart-item-price">$24.99</span>
-											<span class="top-cart-item-quantity">x 3</span>
-										</div>
-									</div>
-								</div>
-								<div class="top-cart-action clearfix">
-									<span class="fleft top-checkout-price">$114.95</span>
-									<button class="button button-3d button-small nomargin fright">View Cart</button>
-								</div>
-							</div>
-						</div><!-- #top-cart end -->
-
-						<!-- Top Search
-						============================================= -->
-						<div id="top-search">
-							<a href="#" id="top-search-trigger"><i class="icon-search3"></i><i class="icon-line-cross"></i></a>
-							<form action="search.html" method="get">
-								<input type="text" name="q" class="form-control" value="" placeholder="Type &amp; Hit Enter..">
-							</form>
-						</div><!-- #top-search end -->
-
-					</nav><!-- #primary-menu end -->
-
-				</div>
-
-			</div>
-
-		</header><!-- #header end -->
-
 		<section id="slider" class="slider-parallax revslider-wrap ohidden clearfix">
 
 			<!--
@@ -322,7 +95,7 @@
 					<!-- LAYER NR. 2 -->
 					<div class="tp-caption customin ltl tp-resizeme revo-slider-caps-text uppercase"
 					data-x="100"
-					data-y="50"
+					data-y="250"
 					data-customin="x:-200;y:0;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
 					data-speed="400"
 					data-start="1000"
@@ -336,7 +109,7 @@
 
 					<div class="tp-caption customin ltl tp-resizeme revo-slider-caps-text uppercase"
 					data-x="570"
-					data-y="75"
+					data-y="275"
 					data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1.3;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
 					data-speed="700"
 					data-start="1000"
@@ -350,7 +123,7 @@
 
 					<div class="tp-caption customin ltl tp-resizeme revo-slider-emphasis-text nopadding noborder"
 					data-x="570"
-					data-y="105"
+					data-y="305"
 					data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1.3;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
 					data-speed="700"
 					data-start="1200"
@@ -364,7 +137,7 @@
 
 					<div class="tp-caption customin ltl tp-resizeme revo-slider-desc-text tleft"
 					data-x="570"
-					data-y="275"
+					data-y="475"
 					data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1.3;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
 					data-speed="700"
 					data-start="1400"
@@ -378,7 +151,7 @@
 
 					<div class="tp-caption customin ltl tp-resizeme"
 					data-x="570"
-					data-y="375"
+					data-y="575"
 					data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1.3;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
 					data-speed="700"
 					data-start="1550"
@@ -396,8 +169,8 @@
 					<!-- LAYERS -->
 
 					<div class="tp-caption customin ltl tp-resizeme revo-slider-caps-text uppercase"
-					data-x="630"
-					data-y="78"
+					data-x="730"
+					data-y="278"
 					data-customin="x:250;y:0;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
 					data-speed="400"
 					data-start="1000"
@@ -412,7 +185,7 @@
 					<!-- LAYER NR. 2 -->
 					<div class="tp-caption customin ltl tp-resizeme revo-slider-caps-text uppercase"
 					data-x="0"
-					data-y="110"
+					data-y="310"
 					data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1.3;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
 					data-speed="700"
 					data-start="1000"
@@ -426,7 +199,7 @@
 
 					<div class="tp-caption customin ltl tp-resizeme revo-slider-emphasis-text nopadding noborder"
 					data-x="0"
-					data-y="140"
+					data-y="340"
 					data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1.3;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
 					data-speed="700"
 					data-start="1200"
@@ -440,7 +213,7 @@
 
 					<div class="tp-caption customin ltl tp-resizeme revo-slider-desc-text tleft"
 					data-x="0"
-					data-y="240"
+					data-y="440"
 					data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1.3;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
 					data-speed="700"
 					data-start="1400"
@@ -454,7 +227,7 @@
 
 					<div class="tp-caption customin ltl tp-resizeme"
 					data-x="0"
-					data-y="340"
+					data-y="540"
 					data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1.3;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
 					data-speed="700"
 					data-start="1550"
@@ -486,95 +259,104 @@
 			</div>
 
 			<script type="text/javascript">
-
 				jQuery(document).ready(function() {
-
 					jQuery('.tp-banner').show().revolution(
 					{
 						dottedOverlay:"none",
 						delay:16000,
 						startwidth:1140,
-						startheight:500,
+						startheight:850,
 						hideThumbs:200,
-
 						thumbWidth:100,
 						thumbHeight:50,
 						thumbAmount:5,
-
 						navigationType:"none",
 						navigationArrows:"solo",
 						navigationStyle:"preview2",
-
 						touchenabled:"on",
 						onHoverStop:"on",
-
 						swipe_velocity: 0.7,
 						swipe_min_touches: 1,
 						swipe_max_touches: 1,
 						drag_block_vertical: false,
-
 						parallax:"mouse",
 						parallaxBgFreeze:"on",
 						parallaxLevels:[7,4,3,2,5,4,3,2,1,0],
-
 						keyboardNavigation:"off",
-
 						navigationHAlign:"center",
 						navigationVAlign:"bottom",
 						navigationHOffset:0,
 						navigationVOffset:20,
-
 						soloArrowLeftHalign:"left",
 						soloArrowLeftValign:"center",
 						soloArrowLeftHOffset:20,
 						soloArrowLeftVOffset:0,
-
 						soloArrowRightHalign:"right",
 						soloArrowRightValign:"center",
 						soloArrowRightHOffset:20,
 						soloArrowRightVOffset:0,
-
 						shadow:0,
 						fullWidth:"on",
 						fullScreen:"off",
-
 						spinner:"spinner4",
-
 						stopLoop:"off",
 						stopAfterLoops:-1,
 						stopAtSlide:-1,
-
 						shuffle:"off",
-
 						autoHeight:"off",
 						forceFullWidth:"off",
-
-
-
 						hideThumbsOnMobile:"off",
 						hideNavDelayOnMobile:1500,
 						hideBulletsOnMobile:"off",
 						hideArrowsOnMobile:"off",
 						hideThumbsUnderResolution:0,
-
 						hideSliderAtLimit:0,
 						hideCaptionAtLimit:0,
 						hideAllCaptionAtLilmit:0,
 						startWithSlide:0,
 						fullScreenOffsetContainer: ".header"
 					});
-
-
-
-
 				}); //ready
-
 			</script>
 
 			<!-- END REVOLUTION SLIDER -->
 
 		</section>
+		<!-- Header
+		============================================= -->
+		<header id="header" class="full-header">
 
+			<div id="header-wrap">
+
+				<div class="container clearfix">
+
+					<div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
+
+					<!-- Logo
+					============================================= -->
+					<div id="logo">
+						<a href="index.html" class="standard-logo" data-dark-logo="images/logo-dark.png"><img src="images/logo.png" alt="Canvas Logo"></a>
+						<a href="index.html" class="retina-logo" data-dark-logo="images/logo-dark@2x.png"><img src="images/logo@2x.png" alt="Canvas Logo"></a>
+					</div><!-- #logo end -->
+
+					<!-- Primary Navigation
+					============================================= -->
+					<nav id="primary-menu">
+
+						<ul class="one-page-menu" data-easing="easeInOutExpo" data-speed="1500">
+							<li><a href="#" data-href="#home"><div>Home</div></a></li>
+							<li><a href="#" data-href="#section-Product"><div>Product</div></a></li>
+							<li><a href="#" data-href="#section-work"><div>About Us</div></a></li>
+						</ul>
+
+
+					</nav><!-- #primary-menu end -->
+
+				</div>
+
+			</div>
+
+		</header><!-- #header end -->
 		<!-- Content
 		============================================= -->
 		<section id="content">
@@ -583,24 +365,27 @@
 
 				<div class="container clearfix">
 
-					<div class="col-md-12 nopadding">
+					<div class="col-md-8 nopadding">
 
-						<div class="col-md-4 noleftpadding bottommargin-sm">
+						<div class="col-md-6 noleftpadding bottommargin-sm">
 							<a href="#"><img src="images/shop/banners/2.jpg" alt="Image"></a>
 						</div>
 
-						<div class="col-md-4 noleftpadding bottommargin-sm">
+						<div class="col-md-6 noleftpadding bottommargin-sm">
 							<a href="#"><img src="images/shop/banners/8.jpg" alt="Image"></a>
 						</div>
-						<div class="col-md-4 noleftpadding bottommargin-sm">
-							<a href="#"><img src="images/shop/banners/8.jpg" alt="Image"></a>
+
+						<div class="clear"></div>
+
+						<div class="col-md-12 noleftpadding">
+							<a href="#"><img src="images/shop/banners/4.jpg" alt="Image"></a>
 						</div>
 
 					</div>
 
-					<!-- <div class="col-md-4 nopadding">
+					<div class="col-md-4 nopadding">
 						<a href="#"><img src="images/shop/banners/9.jpg" alt="Image"></a>
-					</div> -->
+					</div>
 
 					<div class="clear"></div>
 
@@ -609,7 +394,7 @@
 						<ul class="tab-nav clearfix">
 							<li><a href="#tabs-9">New Arrivals</a></li>
 							<li><a href="#tabs-10">Best sellers</a></li>
-
+							<li><a href="#tabs-11">You may like</a></li>
 						</ul>
 
 						<div class="tab-container">
@@ -815,7 +600,109 @@
 								</div>
 							</div>
 
+							<div class="tab-content clearfix" id="tabs-11">
 
+								<div id="shop" class="clearfix">
+
+									<div class="product clearfix">
+										<div class="product-image">
+											<div class="fslider" data-arrows="false">
+												<div class="flexslider">
+													<div class="slider-wrap">
+														<div class="slide"><a href="#"><img src="images/shop/dress/3.jpg" alt="Pink Printed Dress"></a></div>
+														<div class="slide"><a href="#"><img src="images/shop/dress/3-1.jpg" alt="Pink Printed Dress"></a></div>
+														<div class="slide"><a href="#"><img src="images/shop/dress/3-2.jpg" alt="Pink Printed Dress"></a></div>
+													</div>
+												</div>
+											</div>
+											<div class="product-overlay">
+												<a href="#" class="add-to-cart"><i class="icon-shopping-cart"></i><span> Add to Cart</span></a>
+												<a href="include/ajax/shop-item.html" class="item-quick-view" data-lightbox="ajax"><i class="icon-zoom-in2"></i><span> Quick View</span></a>
+											</div>
+										</div>
+										<div class="product-desc">
+											<div class="product-title"><h3><a href="#">Pink Printed Dress</a></h3></div>
+											<div class="product-price">$39.49</div>
+											<div class="product-rating">
+												<i class="icon-star3"></i>
+												<i class="icon-star3"></i>
+												<i class="icon-star3"></i>
+												<i class="icon-star-empty"></i>
+												<i class="icon-star-empty"></i>
+											</div>
+										</div>
+									</div>
+
+									<div class="product clearfix">
+										<div class="product-image">
+											<a href="#"><img src="images/shop/pants/5.jpg" alt="Green Trousers"></a>
+											<a href="#"><img src="images/shop/pants/5-1.jpg" alt="Green Trousers"></a>
+											<div class="sale-flash">Sale!</div>
+											<div class="product-overlay">
+												<a href="#" class="add-to-cart"><i class="icon-shopping-cart"></i><span> Add to Cart</span></a>
+												<a href="include/ajax/shop-item.html" class="item-quick-view" data-lightbox="ajax"><i class="icon-zoom-in2"></i><span> Quick View</span></a>
+											</div>
+										</div>
+										<div class="product-desc">
+											<div class="product-title"><h3><a href="#">Green Trousers</a></h3></div>
+											<div class="product-price"><del>$24.99</del> <ins>$21.99</ins></div>
+											<div class="product-rating">
+												<i class="icon-star3"></i>
+												<i class="icon-star3"></i>
+												<i class="icon-star3"></i>
+												<i class="icon-star-half-full"></i>
+												<i class="icon-star-empty"></i>
+											</div>
+										</div>
+									</div>
+
+									<div class="product clearfix">
+										<div class="product-image">
+											<a href="#"><img src="images/shop/sunglasses/2.jpg" alt="Men Aviator Sunglasses"></a>
+											<a href="#"><img src="images/shop/sunglasses/2-1.jpg" alt="Men Aviator Sunglasses"></a>
+											<div class="product-overlay">
+												<a href="#" class="add-to-cart"><i class="icon-shopping-cart"></i><span> Add to Cart</span></a>
+												<a href="include/ajax/shop-item.html" class="item-quick-view" data-lightbox="ajax"><i class="icon-zoom-in2"></i><span> Quick View</span></a>
+											</div>
+										</div>
+										<div class="product-desc">
+											<div class="product-title"><h3><a href="#">Men Aviator Sunglasses</a></h3></div>
+											<div class="product-price">$13.49</div>
+											<div class="product-rating">
+												<i class="icon-star3"></i>
+												<i class="icon-star3"></i>
+												<i class="icon-star3"></i>
+												<i class="icon-star3"></i>
+												<i class="icon-star-empty"></i>
+											</div>
+										</div>
+									</div>
+
+									<div class="product clearfix">
+										<div class="product-image">
+											<a href="#"><img src="images/shop/tshirts/4.jpg" alt="Black Polo Tshirt"></a>
+											<a href="#"><img src="images/shop/tshirts/4-1.jpg" alt="Black Polo Tshirt"></a>
+											<div class="product-overlay">
+												<a href="#" class="add-to-cart"><i class="icon-shopping-cart"></i><span> Add to Cart</span></a>
+												<a href="include/ajax/shop-item.html" class="item-quick-view" data-lightbox="ajax"><i class="icon-zoom-in2"></i><span> Quick View</span></a>
+											</div>
+										</div>
+										<div class="product-desc">
+											<div class="product-title"><h3><a href="#">Black Polo Tshirt</a></h3></div>
+											<div class="product-price">$11.49</div>
+											<div class="product-rating">
+												<i class="icon-star3"></i>
+												<i class="icon-star3"></i>
+												<i class="icon-star3"></i>
+												<i class="icon-star3"></i>
+												<i class="icon-star3"></i>
+											</div>
+										</div>
+									</div>
+
+								</div>
+
+							</div>
 
 						</div>
 
@@ -823,14 +710,14 @@
 
 					<div class="clear bottommargin-sm"></div>
 
-					<!-- <div class="col_one_third">
+					<div class="col_one_third">
 						<div class="fancy-title title-border">
 							<h4>About Us</h4>
 						</div>
 						<p>Jane Jacobs educate, leverage affiliate Martin Luther King Jr. agriculture conflict resolution dignity. Cooperation international progress non-partisan lasting change meaningful.</p>
-					</div> -->
+					</div>
 
-					<div class="col_half">
+					<div class="col_one_third">
 						<div class="fancy-title title-border">
 							<h4>Subscribe for Offers</h4>
 						</div>
@@ -863,7 +750,7 @@
 						</script>
 					</div>
 
-					<div class="col_half col_last">
+					<div class="col_one_third col_last">
 						<div class="fancy-title title-border">
 							<h4>Connect with Us</h4>
 						</div>
@@ -941,7 +828,7 @@
 
 					<div class="clear"></div>
 
-					<!-- <div class="fancy-title title-border title-center topmargin-sm">
+					<div class="fancy-title title-border title-center topmargin-sm">
 						<h4>Popular Brands</h4>
 					</div>
 
@@ -964,7 +851,7 @@
 						<li><a href="#"><img src="images/clients/logo/16.png" alt="Clients"></a></li>
 						<li><a href="#"><img src="images/clients/logo/19.png" alt="Clients"></a></li>
 						<li><a href="#"><img src="images/clients/logo/18.png" alt="Clients"></a></li>
-					</ul> -->
+					</ul>
 
 				</div>
 
@@ -1014,7 +901,7 @@
 					</div>
 				</div>
 
-				<!-- <div class="section notopborder nobottomborder nomargin nopadding nobg footer-stick">
+				<div class="section notopborder nobottomborder nomargin nopadding nobg footer-stick">
 					<div class="container clearfix">
 
 						<div class="col_half nobottommargin topmargin">
@@ -1061,7 +948,7 @@
 						</div>
 
 					</div>
-				</div> -->
+				</div>
 
 			</div>
 
